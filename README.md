@@ -1,8 +1,11 @@
-# minecraft raylib remake
-remaking minecraft in [raylib](https://github.com/raysan5/raylib)
+# Minecraft Raylib Remake
+Remaking minecraft in [raylib](https://github.com/raysan5/raylib), current assets are temporary.
 
-a very simple multiplayer has already been implemented using [libwebsockets](https://github.com/warmcat/libwebsockets) with the backend built on [node-multiplayer](https://github.com/raxracks/node-multiplayer)
+## Multiplayer
+A very simple multiplayer has already been implemented using [libwebsockets](https://github.com/warmcat/libwebsockets) with the backend built on [node-multiplayer](https://github.com/raxracks/node-multiplayer).   
+To run the server install dependencies with `npm i` then run with `node server.js`.
 
-i should make a makefile lmao
+## Building
+A makefile will be created later but for now just execute `./build.sh` inside the `game` folder.
 
-obviously this game is not affiliated with mojang or microsoft in any way
+This game is not affiliated with Mojang or Microsoft in any way.
